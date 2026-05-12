@@ -1,0 +1,11 @@
+metric,lightgbm,sarimax,persistence
+MAPE 24h ahead,0.0401616949858834,0.1209301537693115,0.0496976143756832
+Pinball loss avg (24h),35.6590525488283,,
+MAPE 168h ahead,0.0739590262636994,0.1678754440627552,0.0524780319594632
+Pinball loss avg (168h),65.37338610171794,,
+Coverage @ 50% nominal (h<=24) — raw / calibrated,0.294 → 0.470,,
+Coverage @ 90% nominal (h<=24) — raw / calibrated,0.681 → 0.904,,
+Coverage @ 50% nominal (h=25-72) — raw / calibrated,0.243 → 0.484,,
+Coverage @ 90% nominal (h=25-72) — raw / calibrated,0.594 → 0.893,,
+Coverage @ 50% nominal (h=73-168) — raw / calibrated,0.234 → 0.493,,
+Coverage @ 90% nominal (h=73-168) — raw / calibrated,0.585 → 0.892,,

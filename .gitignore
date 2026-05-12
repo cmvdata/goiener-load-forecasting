@@ -1,0 +1,32 @@
+# Data
+data/raw/
+data/sample/
+
+# Caches y archivos
+output/_cache/
+output/_archive*/
+models/_archive*/
+models/challengers/
+
+# Claude Code local settings
+.claude/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

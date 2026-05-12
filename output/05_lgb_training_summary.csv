@@ -1,0 +1,6 @@
+level,quantile,n_train_rows,n_valid_rows,n_train_full_rows,n_features,iterations_used,refit_full,training_seconds,model_path
+portfolio,0.05,20951,720,21671,23,784,True,11.41,lgb_portfolio_q050.txt
+portfolio,0.25,20951,720,21671,23,642,True,13.6,lgb_portfolio_q250.txt
+portfolio,0.5,20951,720,21671,23,510,True,13.34,lgb_portfolio_q500.txt
+portfolio,0.75,20951,720,21671,23,184,True,12.61,lgb_portfolio_q750.txt
+portfolio,0.95,20951,720,21671,23,305,True,13.86,lgb_portfolio_q950.txt

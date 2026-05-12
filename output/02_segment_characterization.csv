@@ -1,0 +1,4 @@
+segment,n_households,pct_households,pct_total_kwh,mean_hh_total_kwh,peak_hour,valley_hour,amplitude_std,label
+0,5624,53.4,46.4,3965.5,22,5,3.142,evening-peak
+1,729,6.92,12.33,8128.1,0,17,1.817,high-baseload
+2,4178,39.67,41.27,4746.9,11,5,2.124,midday-active

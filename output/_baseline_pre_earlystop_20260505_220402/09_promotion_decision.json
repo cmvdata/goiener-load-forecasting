@@ -1,0 +1,35 @@
+{
+  "evaluated_at": "2026-05-01T17:32:13.943854+00:00",
+  "holdout_start": "2022-05-06T00:00:00",
+  "holdout_end": "2022-06-05T00:00:00",
+  "n_issues": 24,
+  "n_horizon_steps": 168,
+  "n_pairs": 4032,
+  "champion": {
+    "n": 4032,
+    "mape": 0.061088255040742015,
+    "rmse": 145.08751112280206,
+    "coverage_50": 0.345734126984127,
+    "coverage_90": 0.9280753968253969
+  },
+  "challenger": {
+    "n": 4032,
+    "mape": 0.05282647831637141,
+    "rmse": 139.26325957951508,
+    "coverage_50": 0.42038690476190477,
+    "coverage_90": 0.9518849206349206
+  },
+  "delta_mape_pp": 0.8261776724370604,
+  "promotion_threshold_mape_pp": 0.2,
+  "min_coverage_50": 0.45,
+  "min_coverage_90": 0.85,
+  "criteria": {
+    "mape_improves_enough": true,
+    "coverage_50_ok": false,
+    "coverage_90_ok": true
+  },
+  "promoted": false,
+  "data_mode": "full",
+  "rejected_to": "models\\challengers\\2026-05-01_rejected",
+  "files_rejected": 5
+}
